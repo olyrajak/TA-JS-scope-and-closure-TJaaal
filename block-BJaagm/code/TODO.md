@@ -11,7 +11,7 @@
 6. What are the different types of execution context?
 
 7. When global and function execution context gets created?
-
+<!--  -->
 8. Function execution gets created during function execution or while declaring a function.
 
 9) Create a execution context diagram of the following code on your notebook. Take a screenshot/photo and store it in the folder named `img`. Use `![](./img/image-name.png)` to display it here.
