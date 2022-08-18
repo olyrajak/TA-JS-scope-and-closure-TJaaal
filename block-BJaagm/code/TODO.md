@@ -14,60 +14,55 @@
 
 8. Function execution gets created during function execution or while declaring a function.
 
-
-9. Create a execution context diagram of the following code on your notebook. Take a screenshot/photo and store it in the folder named `img`. Use `![](./img/image-name.png)` to display it here.
-
-
+9) Create a execution context diagram of the following code on your notebook. Take a screenshot/photo and store it in the folder named `img`. Use `![](./img/image-name.png)` to display it here.
 
 ```js
-var user = "Arya";
+var user = 'Arya'
 
-function sayHello(){
-  return `Hello ${user}`;
+function sayHello() {
+  return `Hello ${user}`
 }
 
-var userMsg = sayHello(user);
+var userMsg = sayHello(user)
 ```
 
 <!-- Put your image here -->
 
-![](./img/image-name.jpg)
-
-
+![](./image/image1.png)
 
 ```js
-var marks = 400;
-var total = 500;
+var marks = 400
+var total = 500
 
-function getPercentage(amount, totalAmount){
-  return (amount * 100) / totalAmount;
+function getPercentage(amount, totalAmount) {
+  return (amount * 100) / totalAmount
 }
 
-var percentageMarks = getPercentage(marks, total);
-var percentageProfit = getPercentage(400, 200);
+var percentageMarks = getPercentage(marks, total)
+var percentageProfit = getPercentage(400, 200)
 ```
 
 <!-- Put your image here -->
 
-![](./img/image-name.jpg)
-
+![](./image/image2.png)
 
 
 ```js
-var age = 21;
+var age = 21
 
-function customeMessage(userAge){
-  if(userAge > 18){
-    return `You are an adult`;
-  }else {
-    return `You are a kid`;
+function customeMessage(userAge) {
+  if (userAge > 18) {
+    return `You are an adult`
+  } else {
+    return `You are a kid`
   }
 }
 
-var whoAmI = customeMessage(age);
-var whoAmIAgain = customeMessage(12);
+var whoAmI = customeMessage(age)
+var whoAmIAgain = customeMessage(12)
 ```
 
 <!-- Put your image here -->
 
-![](./img/image-name.jpg)
+![](./image/image3.png)
+
