@@ -5,21 +5,21 @@ Create a execution context diagram of the following code on your notebook. Take 
 1.
 
 ```js
-var species = 'human';
+var species = 'human'
 
 function change() {
-  var species = 'vampire';
-  console.log(species);
+  var species = 'vampire'
+  console.log(species)
 }
 
-console.log(species); // 1
-change();
-console.log(species); // 2
+console.log(species) // 1
+change()
+console.log(species) // 2
 ```
 
 <!-- Put your image below -->
 
-![](./img/image-name.jpg)
+![](./img/img1.png)
 
 - Create the execution context diagram
 - What will be the value of species on 1 and 2
@@ -27,27 +27,27 @@ console.log(species); // 2
 2.
 
 ```js
-var topLevelVar = 'This is global scope!';
+var topLevelVar = 'This is global scope!'
 
 function topLevelFn() {
-  var localVar = "This is local to topLevelFn's scope";
+  var localVar = "This is local to topLevelFn's scope"
 
   function nestedFn() {
-    var anotherLocalVar = "Local to nestedFn's scope.";
+    var anotherLocalVar = "Local to nestedFn's scope."
 
-    console.log(localVar); // 1
-    console.log(topLevelVar); // 2
+    console.log(localVar) // 1
+    console.log(topLevelVar) // 2
   }
 
-  nestedFn();
+  nestedFn()
 }
 
-topLevelFn();
+topLevelFn()
 ```
 
 <!-- Put your image below -->
 
-![](./img/image-name.jpg)
+![](./img/img2.png)
 
 - Create the execution context diagram
 - What will be the value of 1 and 2
@@ -55,30 +55,30 @@ topLevelFn();
 3.
 
 ```js
-var one = 'One';
-var two = 'Two';
+var one = 'One'
+var two = 'Two'
 
 function main() {
-  var three = 'Three';
+  var three = 'Three'
 
   function inner() {
-    var four = 'Four';
+    var four = 'Four'
 
-    console.log(one); // 1
-    console.log(two); // 2
-    console.log(three); // 3
+    console.log(one) // 1
+    console.log(two) // 2
+    console.log(three) // 3
   }
-  console.log(four); // 4
-  inner();
+  console.log(four) // 4
+  inner()
 }
 
-main();
-console.log(one, two, three, four); // 5
+main()
+console.log(one, two, three, four) // 5
 ```
 
 <!-- Put your image below -->
 
-![](./img/image-name.jpg)
+![](./img/img3.png)
 
 - Create the execution context diagram
 - What will be the value of 1, 2, 3, 4 and 5 or error if the code does not work
