@@ -7,40 +7,46 @@ To create the execution context diagram consider the following:
 Create the execution context diagram of the following code line by line.
 
 ```js
-let num = 21;
+let num = 21
 function square(num) {
-  return num * num;
+  return num * num
 }
-let hundred = square(10);
-console.log(hundred);
+let hundred = square(10)
+console.log(hundred)
 ```
+
+![](./img/img1.png)
 
 Create the execution context diagram of the following code line by line.
 
 ```js
-var num = 21;
+var num = 21
 function addFive(n) {
-  return n + 5;
+  return n + 5
 }
-var five = addFive(0);
-var ten = addFive(5);
-console.log(five, ten);
+var five = addFive(0)
+var ten = addFive(5)
+console.log(five, ten)
 ```
+
+![](./img/img2.png)
 
 Create the execution context diagram of the following code line by line.
 
 ```js
-let marks = [34, 45, 56, 76];
+let marks = [34, 45, 56, 76]
 function multiplyArrayByN(arr, n) {
-  let finalArr = [];
+  let finalArr = []
   for (let elm of arr) {
-    finalArr.push(elm * 2);
+    finalArr.push(elm * 2)
   }
-  return finalArr;
+  return finalArr
 }
 
-let numbers = multiplyArrayByN(marks);
+let numbers = multiplyArrayByN(marks)
 ```
+
+![](./img/img3.png)
 
 Create the execution context diagram of the following code line by line.
 
@@ -55,15 +61,19 @@ function counter(){
 }
 ```
 
+![](./img/img4.png)
+
 Create the execution context diagram of the following code line by line.
 
 ```js
-counter();
+counter()
 let counter = function () {
-  let count = 0;
+  let count = 0
   function increment() {
-    return count++;
+    return count++
   }
-  return increment();
-};
+  return increment()
+}
 ```
+
+![](./img/img5.png)
