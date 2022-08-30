@@ -2,15 +2,17 @@ Create the execution context diagram for the following code snippets:
 
 ```js
 function outer() {
-  let b = 10;
+  let b = 10
   function inner() {
-    let a = 20;
-    console.log(a + b);
+    let a = 20
+    console.log(a + b)
   }
-  return inner;
+  return inner
 }
-let getSum = outer();
-let num = getSum();
+let getSum = outer()
+let num = getSum()
+![](./img/image1.png)
+
 ```
 
 2.
@@ -19,19 +21,21 @@ Create the execution context diagram for following code. Also write the output o
 
 ```js
 function getCounter() {
-  let count = 0;
+  let count = 0
 
   return () => {
-    return count++;
-  };
+    return count++
+  }
 }
 
-let counter = getCounter();
+let counter = getCounter()
 
-counter(); // output
-counter(); // output
-counter(); // output
-counter(); // output
+counter() // 1
+counter() // 2
+counter() // 3
+counter() // 4
+![](./img/image2.jpg)
+
 ```
 
 3. Create the execution context diagram
@@ -39,15 +43,15 @@ counter(); // output
 ```js
 function makeColorChanger(color) {
   return function () {
-    document.body.style.backgroundColor = color;
-  };
+    document.body.style.backgroundColor = color
+  }
 }
 
-let blue = makeColorChanger('blue');
-let tomato = makeColorChanger('tomato');
+let blue = makeColorChanger('blue')
+let tomato = makeColorChanger('tomato')
 
-blue();
-tomato();
+blue()
+tomato()
 
-// What will be the background color after the execution of last line
+// tomato
 ```
