@@ -34,7 +34,7 @@ counter() // 1
 counter() // 2
 counter() // 3
 counter() // 4
-![](./img/image2.jpg)
+![](./img/image2.jpeg)
 
 ```
 
