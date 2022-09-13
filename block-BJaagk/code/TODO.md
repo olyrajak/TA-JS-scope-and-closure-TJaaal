@@ -82,7 +82,7 @@ five = add // Valid (as the function is not been called with parameters, it's a 
 five = five(10, 11) // Valid (as the function is been called with parameters, also the variable five is already reclared to store the value)
 five = function () {
   return 'Hello'
-} // Valid (as it is a function expression)
+} //// Valid (as it is a function expression)
 ```
 
 6. What is the difference between function definition and function call? Explain with an example.
