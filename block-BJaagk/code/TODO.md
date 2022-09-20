@@ -20,7 +20,7 @@ let percentage_data = (marks, total) => {
 function percentage(marks, total) {
   return (marks * 100) / total
 }
-//  function defination
+//  function Declaration
 ```
 
 ```js
@@ -54,7 +54,7 @@ let percentage = (marks, total) => (marks * 100) / total
 ```
 
 ```js
-If a function is first defined and then called it's known as function declaration, whereas if a function is stored in a variable in an expression form it's known as function expression.
+If a function is first defined known as function declaration, whereas if a function is stored in a variable in an expression form it's known as function expression.
 ```
 
 function squareroot(number) {
